@@ -61,3 +61,47 @@ public abstract class Employee  implements PayrollCalculable {
     }
 }       
 
+//SETTERS
+public void setEmployeeNumber(String employeeNumber) {
+    this.employeeNumber = employeeNumber;
+}
+
+public void setLastname(String lastName) {
+    this.lastName = lastName;
+}
+
+public void setFirstName(String firstName) {
+    this.firstName = firstName;
+}
+
+public void setBirthday(String birthday) {
+    this.birthday = birthday;
+}
+
+public void setAddress(String address) {
+    this.address = address;
+}
+
+public void setPhoneNumber(String phoneNumber) {
+    this.phoneNumber = phoneNumber;
+}
+
+public void setStatus(String status) {
+    this.status = status;
+}
+
+public void setPosition(String position) {
+    this.position = position;
+}
+
+public void setBasicSalary(double basicSalary) {
+    this.basicSalary = basicSalary;
+}
+
+public void setHourlyRate(double hourlyRate) {
+    this.hourlyRate = hourlyRate;
+}
+
+public void setAllowance(double allowance) {
+    this.allowance = allowance;
+}
